@@ -1,0 +1,44 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 127px;
+  width: 1512px;
+}
+
+.subContainer{
+  display: flex;
+}
+
+.headerCallToAction{
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  font-size: 36px;
+  margin-bottom: 57px;
+}
+
+.contactsContainer{
+  margin-right: 316px;
+}
+
+.contacts{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+  margin-bottom: 26px;
+}
+
+.email{
+  font-size: 24px;
+}
+
+.follow{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+  margin-bottom: 26px;
+}
+
+.social{
+  font-size: 24px;
+}
+
+

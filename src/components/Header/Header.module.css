@@ -1,0 +1,26 @@
+
+.header {
+  display: flex;
+  padding-left: 128px;
+  padding-right: 128px;
+  font-size: 24px;
+  
+
+}
+
+.linkToHome {
+  display: inline-block;
+  margin-top: 52px;
+}
+
+.headerButtons {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-top: 52px;
+}
+
+.headerButton {
+  margin-left: 30px;
+  margin-right: 30px;
+}
