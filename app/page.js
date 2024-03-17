@@ -10,19 +10,15 @@ import React, { useState } from 'react';
 
 export default function Home() {
   
-  const [selectedFilters, setSelectedFilters] = useState([]);
-
-  const handleFilterChange = (filters) => {
-    setSelectedFilters(filters);
-  };
+  const [selectedFilter, setSelectedFilter] = useState(null);
 
   return (
     <>
       <Header />
       <main>
         <Introduction />
-        <FilterButtons onFilterChange={handleFilterChange} />
-        <Projects  filtersSelected={selectedFilters} />
+        <FilterButtons setSelectedFilter={setSelectedFilter} selectedFilter={selectedFilter}/>
+        <Projects selectedFilter={selectedFilter} />
         <Footer />
         
       </main>

@@ -33,8 +33,7 @@ const ImageWithHover = ({ imageDetails }) => {
   );
 };
 
-const Projects = ({ filtersSelected }) => {
-  const selectedFilters = Array.isArray(filtersSelected) ? filtersSelected : [];
+const Projects = ({ selectedFilter }) => {
   const id = 'projects'
   const ref = useRef(null);
   const { registerElement } = useScroll();
@@ -43,38 +42,16 @@ const Projects = ({ filtersSelected }) => {
     registerElement(id, ref.current);
   }, [id, registerElement]);
   
-  const filteredProjects = allProjects.filter((project) => {
-    const projectCategories = project.categories || [];
-
-    if (selectedFilters.length === 0) {
-      // If no filters selected, include all projects
-      return true;
+  const filteredProjects = selectedFilter ? allProjects.filter((project) => {
+    if (project.categories.includes(selectedFilter)) {
+      return project
     }
-  
-    return selectedFilters.some((filter) => {
-      if (typeof filter === 'string') {
-        // If the filter is a string, check if it's present in projectCategories
-        return projectCategories.includes(filter);
-      } else if (Array.isArray(filter)) {
-        // If the filter is an array, check if there's an intersection with projectCategories
-        return filter.some((f) => projectCategories.includes(f));
-      }
-      return false;
-    });
-  });
-
-  const handleFilterChange = (filters) => {
-    console.log('Selected Filters:', filters);
-    setSelectedFilters(filters);
-  };
-
-  console.log('All Projects:', allProjects);
-  console.log('Filtered Projects:', filteredProjects);
+  }) : allProjects
 
   return (
     <div>
       <div className={styles.parentContainer} ref={ref} id={id}>
-      {allProjects.map((project, index) => (
+      {filteredProjects.map((project, index) => (
           <ImageWithHover key={index} imageDetails={project} />
         ))}
       </div>

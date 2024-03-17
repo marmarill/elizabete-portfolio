@@ -1,8 +1,8 @@
 'use client'
-import React, { useRef, useEffect } from 'react';
 import styles from './Introduction.module.css';
 import Image from 'next/image';
 import gsap from 'gsap';
+import React, { useRef, useEffect } from 'react';
 import { useScroll } from '@/context/Scroll';
 
 export default function Introduction() {

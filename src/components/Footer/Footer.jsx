@@ -1,8 +1,20 @@
+import React, { useRef, useEffect } from 'react';
+import { useScroll } from '@/context/Scroll';
 import styles from './Footer.module.css'
 
+
 export default function Footer() {
+  const id = 'contacts'
+  const scrollRef = useRef(null);
+  const { registerElement } = useScroll();
+
+  useEffect(() => {
+    registerElement(id, scrollRef.current);
+  }, [id, registerElement]);
+
+
   return (
-    <div className={styles.footerContainer} id='contacts'>
+    <div className={styles.footerContainer} id={id} ref={scrollRef}>
       <p className={styles.headerCallToAction}>Let’s work together!</p>
         <div className={styles.subContainer}>
           <div className={styles.contactsContainer}>
