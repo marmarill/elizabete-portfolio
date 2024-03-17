@@ -1,0 +1,9 @@
+.projectLayoutBody {
+    text-align: center;
+    margin: 80px 40px;
+    font-family: "Avenir";
+}
+
+.projectLayoutBody h1 {
+    margin-bottom: 10px;
+}

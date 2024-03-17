@@ -23,4 +23,5 @@
 .headerButton {
   margin-left: 30px;
   margin-right: 30px;
+  cursor: pointer;
 }

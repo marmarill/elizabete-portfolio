@@ -3,15 +3,26 @@ import React, { useRef, useEffect } from 'react';
 import styles from './Introduction.module.css';
 import Image from 'next/image';
 import gsap from 'gsap';
+import { useScroll } from '@/context/Scroll';
 
 export default function Introduction() {
   const accentWordStyle = { color: 'blue', fontFamily: 'Times New Roman' };
   const trigger1Ref = useRef(null);
+
+  // TODO: refactor this
   const fade1Ref = useRef(null);
   const trigger2Ref = useRef(null);
   const fade2Ref = useRef(null);
   const trigger3Ref = useRef(null);
   const fade3Ref = useRef(null);
+
+  const id = 'approach'
+  const scrollRef = useRef(null);
+  const { registerElement } = useScroll();
+
+  useEffect(() => {
+    registerElement(id, scrollRef.current);
+  }, [id, registerElement]);
 
   const addFadeAnimation = (triggerRef, fadeRef) => {
     const tl = gsap.timeline({ paused: true });
@@ -57,7 +68,7 @@ export default function Introduction() {
       <Image src={'/images/introduction/phone.jpg'} ref={fade3Ref} width={402} height={266} className={`${styles.fadeInImg} ${styles.phone}`} />
       <Image src={'/images/introduction/bune.jpg'} ref={fade1Ref} width={333} height={223} className={`${styles.fadeInImg} ${styles.bune}`} />
     </div>
-    <div className={styles.subText}>
+    <div className={styles.subText} ref={scrollRef} id={id}>
     <p className={styles.subTextLeft}>
       In times when we consume large amounts of not only raw materials,
   but also information, I believe that the most compelling story can be 

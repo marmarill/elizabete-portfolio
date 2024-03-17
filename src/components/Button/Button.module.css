@@ -14,6 +14,18 @@
   transition: background-color ease-in 160ms;
 }
 
+.small{
+  padding: 15px 30px;
+  margin-bottom: 0px;
+  margin-top: auto;
+  border-radius: 50px;
+  border-width: 1px;
+  background-color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: none;
+}
+
 .button:hover {
   cursor: pointer;
   background-color: lightgray;

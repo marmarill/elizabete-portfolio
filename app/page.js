@@ -8,7 +8,6 @@ import Projects from '@/components/Projects/Projects';
 import Footer from '@/components/Footer/Footer'
 import React, { useState } from 'react';
 
-
 export default function Home() {
   
   const [selectedFilters, setSelectedFilters] = useState([]);

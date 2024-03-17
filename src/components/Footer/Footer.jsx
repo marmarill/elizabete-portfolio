@@ -2,7 +2,7 @@ import styles from './Footer.module.css'
 
 export default function Footer() {
   return (
-    <div className={styles.footerContainer}>
+    <div className={styles.footerContainer} id='contacts'>
       <p className={styles.headerCallToAction}>Let’s work together!</p>
         <div className={styles.subContainer}>
           <div className={styles.contactsContainer}>
