@@ -1,5 +1,6 @@
 import Header from "../Header/Header"
 import styles from "./ProjectLayout.module.css"
+
 export const ProjectLayout = ({ children }) =>  {
     return <>
         <Header />
@@ -8,5 +9,3 @@ export const ProjectLayout = ({ children }) =>  {
         </main>
     </>
 }
-
-// export default MdxLayout

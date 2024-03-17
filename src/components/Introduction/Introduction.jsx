@@ -7,9 +7,9 @@ import { useScroll } from '@/context/Scroll';
 
 export default function Introduction() {
   const accentWordStyle = { color: 'blue', fontFamily: 'Times New Roman' };
-  const trigger1Ref = useRef(null);
-
+  
   // TODO: refactor this
+  const trigger1Ref = useRef(null);
   const fade1Ref = useRef(null);
   const trigger2Ref = useRef(null);
   const fade2Ref = useRef(null);

@@ -1,7 +1,6 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import styles from './Projects.module.css';
-import FilterButtons from '../FilterButtons/FilterButtons';
 import Link from 'next/link';
 import Button from '../Button/Button';
 import { useScroll } from '@/context/Scroll';
