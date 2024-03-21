@@ -57,6 +57,7 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
+  margin: auto;
 
   /* background: linear-gradient(
       to bottom,

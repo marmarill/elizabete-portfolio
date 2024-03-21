@@ -37,6 +37,8 @@ const Projects = ({ selectedFilter }) => {
   const ref = useRef(null);
   const { registerElement } = useScroll();
 
+  // TODO out the id one section above or try to stop the scrolling ?px before anchor when coming from different page
+
   useEffect(() => {
     registerElement(id, ref.current);
   }, [id, registerElement]);
