@@ -33,13 +33,11 @@ export default function Home() {
 
             <ImageContainer src='/images/Camino/mobileMockup.png'/>
             
-            <div style={{display:'flex' }}>
-                <ImageRowThree srcLeft={'/images/Camino/imageLeft.png'} srcMiddle={'/images/Camino/imageMiddle.png'} srcRight={'/images/Camino/imageRight.png'}/>
+            <Paragraph>
+            Visual design was inspired by the route's homemade signs and the signature colors of the Camino Santiago
+            </Paragraph>
 
-                <p style={{display:'flex', maxWidth:'442px'}}> 
-                    Visual design was inspired by the route's homemade signs and the signature colors of the Camino Santiago
-                </p>
-            </div>
+            <ImageRowThree srcLeft={'/images/Camino/imageLeft.png'} srcMiddle={'/images/Camino/imageMiddle.png'} srcRight={'/images/Camino/imageRight.png'} />
 
             <ImageContainer src={'/images/Camino/mood.png'}/>
 

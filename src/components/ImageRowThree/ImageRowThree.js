@@ -1,9 +1,10 @@
 import Image from "next/image";
+import styles from './ImageRowThree.module.css'
 
 export const ImageRowThree = ({srcLeft, srcMiddle, srcRight}) => {
     return (
-        <div style={{display:'flex', flexDirection:'row', flexWrap:'wrap', marginTop:'50px', maxWidth:'735px', maxHeight:'328px'}}>
-            <div style={{marginRight:'10px', flexGrow: '1.2'}}>
+        <div className={styles.container}>
+            <div className={styles.leftImage}>
                 <Image
                     src={srcLeft}
                     alt="project image"
@@ -14,7 +15,7 @@ export const ImageRowThree = ({srcLeft, srcMiddle, srcRight}) => {
                     
                 />
             </div>
-            <div style={{marginLeft: '10px', marginRight:'10px', flexGrow: '1'}}>
+            <div className={styles.middleImage}>
                 <Image
                     src={srcMiddle}
                     alt="project image"
@@ -24,7 +25,7 @@ export const ImageRowThree = ({srcLeft, srcMiddle, srcRight}) => {
                     sizes="(max-width: 188px) 100vw, 188px"
                 />
             </div>
-            <div style={{marginLeft: '10px', flexGrow: '1.15'}}>
+            <div className={styles.rightImage}>
                 <Image
                     src={srcRight}
                     alt="project image"

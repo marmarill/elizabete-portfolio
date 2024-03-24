@@ -1,8 +1,9 @@
 import Image from 'next/image';
+import style from './ProjectIntroContainer.module.css'
 
 export const ProjectIntroContainer = ({heading, children, src}) => {
     return (
-        <div style={{display:'flex', justifyContent:'space-around', flexWrap:'wrap'}}>
+        <div className={style.container}>
             <div style={{maxWidth:'491px', display:'flex', flexDirection:'column'}}>
                 <h1 style={{fontSize: '36px' , marginBottom: '98px', textAlign: 'left'}}>
                     {heading}
