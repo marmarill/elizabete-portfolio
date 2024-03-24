@@ -21,11 +21,7 @@ export default function Footer() {
           <div className={styles.contactsContainer}>
             <p className={styles.contacts}>Contacts</p>
             <p className={styles.email}>elizabetebusevica@gmail.com</p>
-          </div>
-          <div className={styles.followContainer}>
-            <p className={styles.follow}>Follow me</p>
-            <p className={styles.social}>Ig Be Li</p>
-          </div>     
+          </div>  
         </div>
     </div>
   )

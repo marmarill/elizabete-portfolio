@@ -1,9 +1,10 @@
 import Image from "next/image";
+import styles from './ImageRow.module.css'
 
 export const ImageRow = ({srcLeft, srcRight}) => {
     return (
-        <div className="container">
-            <div className="firstImage">
+        <div className={styles.container}>
+            <div className={styles.firstImage}>
                 <Image
                     src={srcLeft}
                     alt="project image"
@@ -14,7 +15,7 @@ export const ImageRow = ({srcLeft, srcRight}) => {
                     
                 />
             </div>
-            <div className="secondImage">
+            <div className={styles.secondImage}>
                 <Image
                     src={srcRight}
                     alt="project image"

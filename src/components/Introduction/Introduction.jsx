@@ -6,7 +6,7 @@ import React, { useRef, useEffect } from 'react';
 import { useScroll } from '@/context/Scroll';
 
 export default function Introduction() {
-  const accentWordStyle = { color: 'blue', fontFamily: 'Times New Roman' };
+  
   
   // TODO: refactor this
   const trigger1Ref = useRef(null);
@@ -27,7 +27,7 @@ export default function Introduction() {
   const addFadeAnimation = (triggerRef, fadeRef) => {
     const tl = gsap.timeline({ paused: true });
 
-    tl.to(fadeRef.current, {opacity: 1, duration: 0.15 });
+    tl.to(fadeRef.current, {opacity: 1, duration: 0.01 });
 
     triggerRef.current.addEventListener('mouseenter', () => tl.play());
     triggerRef.current.addEventListener('mouseleave', () => {
@@ -50,16 +50,16 @@ export default function Introduction() {
     <div>
       <p className={styles.introductionText}>
         Hello! My name is{' '}
-        <span style={accentWordStyle} className={styles.triggerText} ref={trigger1Ref}>
+        <span className={styles.triggerText} ref={trigger1Ref}>
           Elizabete Bušēvica
         </span>
         . <br />
         I am a{' '}
-        <span style={accentWordStyle} className={styles.triggerText} ref={trigger2Ref}>
+        <span className={styles.triggerText} ref={trigger2Ref}>
           graphic designer
         </span>{' '}
         with a focus on <br />
-        <span style={accentWordStyle} className={styles.triggerText} ref={trigger3Ref}>
+        <span className={styles.triggerText} ref={trigger3Ref}>
           digital design
         </span>{' '}
         and its sustainability.

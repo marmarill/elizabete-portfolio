@@ -1,14 +1,15 @@
 
 .button {
-  padding: 15px 50px;
+  padding: 11px 50px;
   margin-right: 35px;
   margin-bottom: 15px;
   margin-top: 15px;
   border-radius: 50px;
   border: 1px solid #909090;
   background-color: white;
-  font-family: 'Avenir';
+  font-family: 'Figtree';
   font-size: 24px;
+  font-weight: 400;
   white-space: nowrap;
   height: 54px;
   transition: background-color ease-in 160ms;

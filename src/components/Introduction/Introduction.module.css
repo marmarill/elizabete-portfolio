@@ -8,13 +8,15 @@
   position: absolute;
   top: 0;
   left: 0;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.05s ease;
 }
 
 .triggerText {
   cursor: pointer;
   color: blue;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Mate';
+  font-weight: 400;
+  font-size: 64px;
 }
 
 .book {
@@ -47,7 +49,9 @@
 }
 
 .introductionText {
-  font-size: 64px;
+  font-family: 'Figtree';
+  font-weight: 300;
+  font-size: 60px;
   display: inline-block;
   margin: 282px 222px 2px 222px;
   max-width: 1068px;
@@ -57,7 +61,7 @@
 
 .subText{
   width: 1068px;
-  margin-top: 349px;
+  margin-top: 356px;
 }
 
 .subTextLeft{
@@ -65,6 +69,7 @@
   float: left;
   font-weight: 400;
   font-size: 24px;
+  font-family: 'Figtree';
 }
 
 .subTextRight {
@@ -73,7 +78,7 @@
   margin-top: 69px;
   font-weight: 400;
   font-size: 24px;
-  
+  font-family: 'Figtree';
 }
 
 

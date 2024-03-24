@@ -12,7 +12,6 @@ const categories = [
   'Illustration',
   'Packaging design',
   'Typography',
-  'Creative directing'
 ];
 
 export default function FilterButtons({ setSelectedFilter, selectedFilter }) {

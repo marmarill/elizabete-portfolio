@@ -12,7 +12,7 @@
 }
 
 .headerCallToAction{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Mate';
   width: 100%;
   font-size: 36px;
   margin-bottom: 57px;
@@ -23,23 +23,12 @@
 }
 
 .contacts{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Mate';
   font-size: 28px;
   margin-bottom: 26px;
 }
 
-.email{
-  font-size: 24px;
+@media screen { 
+  
 }
-
-.follow{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 28px;
-  margin-bottom: 26px;
-}
-
-.social{
-  font-size: 24px;
-}
-
 

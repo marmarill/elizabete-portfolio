@@ -31,6 +31,6 @@ export const allProjects = [{
     title: 'Adatu Fabrika visual identity',
     additionalText: 'This creative cluster in the center of Kuldiga is a new place for your professional growth. Took responsibility of creative directing the process of identity design.',
     buttonText: 'view project',
-    categories: ['Brand identity', 'Creative directing'],
+    categories: ['Brand identity'],
     path: "/adatu-fabrika"
 }]

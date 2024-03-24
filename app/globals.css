@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate&display=swap');
+
+
 :root {
-  
+  font-family: 'Figtree, sans-serif';
 }
 
 * {
@@ -13,7 +17,7 @@ body {
   background-color: #ffffff;
   max-width: 1512px;
   overflow-x: hidden;
-  font-family: 'Avenir';
+  font-family: 'Figtree, sans-serif';
   margin: auto;
 }
 
@@ -34,6 +38,5 @@ a {
 }
 
 @font-face {
-  font-family: 'Avenir';
-  src: url('fonts/Metropolis-Light.otf') format('opentype');
+  
 }
