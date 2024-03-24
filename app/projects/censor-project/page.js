@@ -4,7 +4,6 @@ import { ProjectLayout } from '@/components/ProjectLayout/ProjectLayout';
 import { ProjectIntroContainer } from '@/components/ProjectIntroContainer/ProjectIntroContainer';
 import { Paragraph } from '@/components/Paragraph/Paragraph';
 import { ImageContainer } from '@/components/ImageContainer/ImageContainer';
-import { ImageAndParagraph } from '@/components/ImageAndParagraph/imageAndParagraph';
 import { ImageRow } from '@/components/ImageRow/ImageRow';
 
 
