@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-top: 102px;
+}
+
+.paragraphContainer {
+    max-width: 741px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p {
+    font-size: 24px;
+    text-align: left;
+}
+
+.imageContainer {
+    max-width: 746px;
+    max-height: 577px;
+    min-width: 390px;
+    min-height: 301px;
+    display: flex;
+    flex-grow: 1;
+}
+
+

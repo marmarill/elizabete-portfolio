@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export const ImageRow = ({srcLeft, srcRight}) => {
     return (
-        <div style={{display:'flex', flexDirection:'row', flexWrap:'wrap', marginTop:'50px'}}>
-            <div style={{marginRight:'10px', flexGrow: '1'}}>
+        <div className="container">
+            <div className="firstImage">
                 <Image
                     src={srcLeft}
                     alt="project image"
@@ -14,7 +14,7 @@ export const ImageRow = ({srcLeft, srcRight}) => {
                     
                 />
             </div>
-            <div style={{marginLeft: '10px', flexGrow: '1'}}>
+            <div className="secondImage">
                 <Image
                     src={srcRight}
                     alt="project image"

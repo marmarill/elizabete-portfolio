@@ -1,5 +1,3 @@
-
-
 .hoverContainer {
   position: relative;
   display: inline-block;
@@ -10,11 +8,13 @@
   position: absolute;
   top: 0;
   left: 0;
-  transition: opacity 0.5s ease; /* Optional: Use CSS transitions as a fallback */
+  transition: opacity 0.5s ease;
 }
 
 .triggerText {
   cursor: pointer;
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .book {
@@ -50,7 +50,10 @@
   font-size: 64px;
   display: inline-block;
   margin: 282px 222px 2px 222px;
+  max-width: 1068px;
+  max-height: 270px;
 }
+
 
 .subText{
   width: 1068px;
@@ -72,6 +75,8 @@
   font-size: 24px;
   
 }
+
+
 
 /* @media only screen and (max-width: 600px) {
   .introductionText {
