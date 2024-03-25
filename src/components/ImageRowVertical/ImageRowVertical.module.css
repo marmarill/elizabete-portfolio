@@ -1,6 +1,5 @@
 .container {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     align-items: stretch; 
     margin-top: 50px;
@@ -24,6 +23,9 @@
     flex: 0.6;
     margin-bottom: -1px;
     margin-top: -1px;
+    overflow: hidden;
+
+
 }
 
 .horizontalImage {
@@ -32,6 +34,4 @@
 
 .full {
     width: auto;
-    height: 809px;
-    overflow: hidden;
 }

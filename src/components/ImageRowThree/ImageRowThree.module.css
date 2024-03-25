@@ -38,18 +38,4 @@
     max-width: 735px;
 }
 
-.verticalImage {
-    flex: 1;
-    margin-bottom: -1px;
-    margin-top: -1px;
-    height: 362px;
-}
-
-.horizontalImage {
-    flex: 2;
-    height: 362px;
-    width: auto;
-
-}
-
 
