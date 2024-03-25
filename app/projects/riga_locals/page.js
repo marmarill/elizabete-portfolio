@@ -7,6 +7,8 @@ import { Paragraph } from '@/components/Paragraph/Paragraph';
 import { ImageContainer } from '@/components/ImageContainer/ImageContainer';
 import { ImageRow } from '@/components/ImageRow/ImageRow';
 import { ImageAndParagraph } from '@/components/ImageAndParagraph/ImageAndParagraph';
+import Video from '@/components/Video/Video';
+import { ImageRowVertical } from '@/components/ImageRowVertical/ImageRowVertical';
 
 
 export default function Home() {
@@ -16,29 +18,25 @@ export default function Home() {
     <>
         <ProjectLayout>
 
-            <ProjectIntroContainer heading='Adatu Fabrika visual identity' src='/images/ProjectCover/adatu1.jpg'>
-                This creative cluster in the center of Kuldīga is a new place for your professional growth. 
-                Took responsibility of creative directing the process of identity design.
+            <ProjectIntroContainer heading='“Riga Locals”  – an interactive archive of experience stories from local foreigners' src='/images/ProjectCover/rigaLocals.jpg'>
+                Bachelor thesis project in Graphic Design
             </ProjectIntroContainer>
 
             <Paragraph>
-                Adatu Fabrika is an innovative and international place for art, education and co-creation, a home for the international master's level study program SDSI, the Kuldīga artists' residence, prototyping workshops, digital center and the LIAA Kuldīga business incubator. It is a place where art and design, ambition and excellence meet.
+                Riga Locals is an interactive archive of stories gathered from foreigners living in Riga, Latvia. This project allows user to understand and familiarise themselves with the experiences of local foreigners through personal stories and data visualisations. The project aims to promote an inclusive and open society and encourage public discussions on integration issues.
             </Paragraph>
 
-            <ImageContainer src="/images/AdatuFabrika/fabrika.jpg" contained/>
+            <Video src={'/images/rigaLocals/rigaLocalsVideo.mp4'}/>
 
-            <ImageAndParagraph src="/images/AdatuFabrika/adatuLogo.jpg">
-                It brings together different industries in one place and encourages joint growth. Our goal for this visual identity was to reflect the strong architecture of Adatu Fabrika and to talk about it as a platform for growth. And to do that, we chose to use stairs as the main graphic element and colours from the architecture itself.
-                <br />
-                <br />
-                It was very important for us to deliver this story in a simple and understandable visual language.
-            </ImageAndParagraph>
+            <ImageRow srcLeft={'/images/rigaLocals/topLeft.jpg'} srcRight={'/images/rigaLocals/topRight.jpg'} />
 
-            <ImageRow srcLeft={'/images/AdatuFabrika/buklets.jpg'} srcRight={'/images/AdatuFabrika/sdsi.jpg'} />
+            <ImageContainer src={'/images/rigaLocals/billboard.jpg'} contained/>
 
-            <ImageContainer src={'/images/AdatuFabrika/mockupCover.jpg'}/>
+            <Paragraph>
+                The project was exhibited in “Design Days 2023” at Art Academy of Latvia. So in addition to the digital prototype an exhibition stand with pre-recorded stories was made to create a better engagement with visitors.
+            </Paragraph>
 
-            <ImageContainer src={'/images/AdatuFabrika/mockupView.jpg'}/>
+            <ImageRowVertical leftOrientation={'vertical'} srcLeft={'/images/rigaLocals/exhibition1.jpg'} srcRight={'/images/rigaLocals/exhibition2.jpg'} full/>
                 
         </ProjectLayout>
     </>

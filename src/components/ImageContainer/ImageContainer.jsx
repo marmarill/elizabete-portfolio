@@ -3,7 +3,7 @@ import styles from './ImageContainer.module.css'
 
 export const ImageContainer = ({ src, contained, left }) =>  {
       return (
-        <div className={`${styles.full} ${contained ? styles.contained : ''} ${styles.left} ${left ? styles.left : styles.centre}`}>
+        <div className={`${styles.full} ${contained ? styles.contained : ''} ${styles.centre} ${left ? styles.left : styles.centre}`}>
                 <Image className={styles.image}
                     src={src}
                     alt="project image"
