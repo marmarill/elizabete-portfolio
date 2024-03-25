@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     flex-wrap: wrap;
     margin-top: 102px;
 }
@@ -12,16 +12,14 @@
     flex-direction: column;
 }
 
-.p {
+.text {
     font-size: 24px;
     text-align: left;
 }
 
 .imageContainer {
-    max-width: 746px;
-    max-height: 577px;
-    min-width: 390px;
-    min-height: 301px;
+    max-width: 505px;
+    max-height: 176px;
     display: flex;
     flex-grow: 1;
 }

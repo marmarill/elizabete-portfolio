@@ -15,7 +15,7 @@ export default function Home() {
     <>
         <ProjectLayout>
 
-            <ProjectIntroContainer heading='Camino Latvija mobile app' src='/images/ProjectCover/camino.jpg'>
+            <ProjectIntroContainer heading='Camino Latvija mobile app' src='/images/ProjectCover/camino1.jpg'>
                 Concept and design of an app for pilgrim voluntary organization Camino Latvija. 
                 Plan your route, accommodations and 
                 meet other like-minded people.
@@ -29,17 +29,17 @@ export default function Home() {
                 Currently users can view the route on the Camino Latvija website. However, when on the go, the mobile format is definitely more convenient. Therefore, in collaboration with the organization itself, I developed a prototype for mobile app. Adding features such as: route planning and navigation, accommodation reservation, sights to see, option of communication with other like-minded travelers, weather etc..
             </Paragraph>
 
-            <ImageContainer src='/images/Camino/mobileMockup.png'/>
+            <ImageContainer src='/images/Camino/iphoneMockuphd.jpg'/>
             
             <Paragraph>
             Visual design was inspired by the route's homemade signs and the signature colors of the Camino Santiago
             </Paragraph>
 
-            <ImageRowThree srcLeft={'/images/Camino/imageLeft.png'} srcMiddle={'/images/Camino/imageMiddle.png'} srcRight={'/images/Camino/imageRight.png'} />
+            <ImageRowThree srcLeft={'/images/Camino/imageLeft.jpg'} srcMiddle={'/images/Camino/imageMiddle.jpg'} srcRight={'/images/Camino/imageRight.jpg'} />
 
-            <ImageContainer src={'/images/Camino/mood.png'}/>
+            <ImageContainer src={'/images/Camino/mood.jpg'}/>
 
-            <ImageContainer src={'/images/Camino/moodMockup.png'}/>
+            <ImageContainer src={'/images/Camino/moodMockup.jpg'}/>
                 
         </ProjectLayout>
     </>

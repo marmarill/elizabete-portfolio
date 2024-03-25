@@ -64,9 +64,9 @@ export default function Introduction() {
         </span>{' '}
         and its sustainability.
       </p>
-      <Image src={'/images/introduction/book.png'} ref={fade2Ref} width={426} height={305} className={`${styles.fadeInImg} ${styles.book}`} />
-      <Image src={'/images/introduction/phone.jpg'} ref={fade3Ref} width={402} height={266} className={`${styles.fadeInImg} ${styles.phone}`} />
-      <Image src={'/images/introduction/bune.jpg'} ref={fade1Ref} width={333} height={223} className={`${styles.fadeInImg} ${styles.bune}`} />
+      <Image src={'/images/introduction/book1.jpg'} ref={fade2Ref} width={426} height={305} className={`${styles.fadeInImg} ${styles.book}`} />
+      <Image src={'/images/introduction/phone1.jpg'} ref={fade3Ref} width={402} height={266} className={`${styles.fadeInImg} ${styles.phone}`} />
+      <Image src={'/images/introduction/bune1.jpg'} ref={fade1Ref} width={333} height={223} className={`${styles.fadeInImg} ${styles.bune}`} />
     </div>
     <div className={styles.subText} ref={scrollRef} id={id}>
     <p className={styles.subTextLeft}>

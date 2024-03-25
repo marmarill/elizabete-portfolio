@@ -2,10 +2,8 @@
 import React, { useState } from 'react';
 import { ProjectLayout } from '@/components/ProjectLayout/ProjectLayout';
 import { ProjectIntroContainer } from '@/components/ProjectIntroContainer/ProjectIntroContainer';
-import { Paragraph } from '@/components/Paragraph/Paragraph';
 import { ImageContainer } from '@/components/ImageContainer/ImageContainer';
-import { ImageRow } from '@/components/ImageRow/ImageRow'
-import { ImageRowThree } from '@/components/ImageRowThree/ImageRowThree';
+import { ImageRowVertical } from '@/components/ImageRowVertical/ImageRowVertical';
 
 
 
@@ -21,7 +19,7 @@ export default function Home() {
                 Aroma marketing company that hand-crafts personalized scents for brands using natural ingredients only.
             </ProjectIntroContainer>
 
-            <ImageRow srcLeft={'/images/Lepor/bottle.jpg'} srcRight={'/images/Lepor/banner.jpg'} />
+            <ImageRowVertical srcLeft={'/images/Lepor/bottle.jpg'} srcRight={'/images/Lepor/banner.jpg'} />
 
             <ImageContainer src='/images/Lepor/lepor1.jpg'/>
 

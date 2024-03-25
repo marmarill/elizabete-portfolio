@@ -6,7 +6,7 @@ export const ImageAndParagraph = ({ children, src}) => {
     return (
         <div className={styles.container}>
                 <div className={styles.paragraphContainer}>
-                    <p> 
+                    <p className={styles.text}> 
                         {children}
                     </p>
                 </div>
