@@ -1,9 +1,9 @@
 import Image from "next/image";
 import styles from './ImageRowThree.module.css'
 
-export const ImageRowThree = ({srcLeft, srcMiddle, srcRight}) => {
+export const ImageRowThree = ({srcLeft, srcMiddle, srcRight, compress}) => {
     return (
-        <div className={styles.container}>
+        <div className={`${styles.container} ${compress ? styles.compress : ''} `}>
             <div className={styles.leftImage}>
                 <Image
                     src={srcLeft}

@@ -33,4 +33,33 @@ export const allProjects = [{
     buttonText: 'view project',
     categories: ['Brand identity'],
     path: "/adatu-fabrika"
-}]
+  }, {
+    src: '/images/ProjectCover/taop.jpg',
+    title: 'TAOP visual identity',
+    additionalText: 'Talking About Organizations Podcast is a monthly conversational podcast about management and organization studies.',
+    buttonText: 'view project',
+    categories: ['Brand identity'],
+    path: "/talking-about-organizations-podcast"
+  }, {
+    src: '/images/ProjectCover/zuzeum.jpg',
+    title: 'Zuzeum',
+    additionalText: "During my still ongoing journey at Zuzeum, I have worked on different event series, graphics for exhibitions’ interiors, social media announcement visual systems etc.. Here is a selection of few projects I've made together with Team Zuzeum.",
+    buttonText: 'view project',
+    categories: [],
+    path: "/zuzeum-art-centre"
+}, {
+    src: '/images/ProjectCover/rigaLocals.jpg',
+    title: '“Riga Locals”  – an interactive archive of experience stories from local foreigners',
+    additionalText: 'Bachelor thesis project in Graphic Design',
+    buttonText: 'view project',
+    categories: ['UX/UI'],
+    path: "/riga_locals"
+  }, {
+    src: '/images/ProjectCover/artMap.jpg',
+    title: 'Riga Contemporary Art Map',
+    additionalText: 'Pocket-sized foldable guide designed to showcase the vibrant art scene of our city.',
+    buttonText: 'view project',
+    categories: ['Publication', 'Illustration', 'Typography'],
+    path: "/riga_contemporary_art_map"
+  }
+]

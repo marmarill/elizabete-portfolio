@@ -1,0 +1,12 @@
+.container {
+    display: block;
+    margin-top: 102px;
+    margin-right: auto;
+    margin-bottom: 102px;
+}
+
+.text {
+    font-size: 24px;
+    text-align: left;
+    max-width: 746px;
+}

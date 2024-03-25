@@ -1,7 +1,9 @@
+import styles from './Paragraph.module.css'
+
 export const Paragraph = ({children}) => {
     return (
-        <div style={{display:'block', marginTop:'102px', marginTop: '102px', marginRight: 'auto', marginBottom:'102px'}}>
-            <p style={{fontSize: '24px', textAlign: 'left', maxWidth:'746px'}}> 
+        <div className={styles.container}>
+            <p className={styles.text}> 
                 {children}
             </p>
         </div>

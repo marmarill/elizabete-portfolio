@@ -35,7 +35,7 @@ export default function Home() {
             Visual design was inspired by the route's homemade signs and the signature colors of the Camino Santiago
             </Paragraph>
 
-            <ImageRowThree srcLeft={'/images/Camino/imageLeft.jpg'} srcMiddle={'/images/Camino/imageMiddle.jpg'} srcRight={'/images/Camino/imageRight.jpg'} />
+            <ImageRowThree compress srcLeft={'/images/Camino/imageLeft.jpg'} srcMiddle={'/images/Camino/imageMiddle.jpg'} srcRight={'/images/Camino/imageRight.jpg'} />
 
             <ImageContainer src={'/images/Camino/mood.jpg'}/>
 
