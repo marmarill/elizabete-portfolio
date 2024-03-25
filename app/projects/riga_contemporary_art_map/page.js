@@ -28,7 +28,7 @@ export default function Home() {
 
             <ImageRowVertical full leftOrientation={'vertical'} rightOrientation={'vertical'} srcLeft={'/images/artMap/artmap.gif'} srcRight={'/images/artMap/mockup.jpg'} />
 
-            <ImageRowThree  leftOrientation={'vertical'} middleOrientation={'horizontal'}  rightOrientation={'horizontal'}srcLeft={'/images/artMap/text.jpg'} srcMiddle={'/images/artMap/illustration.jpg'} srcRight={'/images/artMap/font.jpg'}/>
+            <ImageRowThree srcLeft={'/images/artMap/text.jpg'} srcMiddle={'/images/artMap/illustration.jpg'} srcRight={'/images/artMap/font.jpg'}/>
 
             <Paragraph>
                 This initiative was made by Team Zuzeum in collaboration with Arterritory, Neighborhood and Riga Last Thursdays. Available for free of charge at most of the Riga’s art museums, galleries and select hotels.
