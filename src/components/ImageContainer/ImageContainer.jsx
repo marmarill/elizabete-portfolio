@@ -1,18 +1,18 @@
 import Image from "next/image"
+import styles from './ImageContainer.module.css'
 
-export const ImageContainer = ({ src, contained }) =>  {
-    const containedStyle = { maxWidth:'1002px', maxHeight:'634px', display:'block', margin:'20px auto',}
-    const fullStyle = {marginTop:'20px'}
-
-    return <>
-        <div style={contained ? containedStyle : fullStyle}>
-                <Image 
+export const ImageContainer = ({ src, contained, left }) =>  {
+      return (
+        <div className={`${styles.full} ${contained ? styles.contained : ''} ${styles.left} ${left ? styles.left : styles.centre}`}>
+                <Image className={styles.image}
                     src={src}
                     alt="project image"
                     layout="responsive"
                     height={contained ? "634" : '667'} 
                     width={contained ? "1002" : "1256"}
                 />
-            </div>
-    </>
+        </div>
+    )
 }
+
+ // {{contained ? styles.contained : styles.full} {left ? styles.left : styles.contained}} >

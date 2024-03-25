@@ -1,0 +1,23 @@
+.contained {
+    max-width: 1002px;
+    max-height: 634px;
+    display: block;
+    margin-top: 20px;
+}
+
+.full {
+    margin: 20px;
+}
+
+.centre {
+    margin: auto;
+}
+
+.image {
+    margin-top: 20px;
+}
+
+.left {
+    margin-left: 0px;
+    margin-right: auto;
+}

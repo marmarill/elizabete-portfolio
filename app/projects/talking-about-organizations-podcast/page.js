@@ -39,9 +39,9 @@ export default function Home() {
                 Visual research on such topics as: behaviour / interactions / performance / action / dynamics / social relationships / a form / environment
             </Paragraph>
 
-            <ImageContainer src={'/images/TAOP/bottom1.jpg'} contained/>
+            <ImageContainer src={'/images/TAOP/bottom1.jpg'} contained left/>
 
-            <ImageContainer src={'/images/TAOP/bottom2.jpg'} contained/>
+            <ImageContainer src={'/images/TAOP/bottom2.jpg'} contained left/>
 
                 
         </ProjectLayout>
