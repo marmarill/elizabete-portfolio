@@ -4,16 +4,16 @@ import style from './ProjectIntroContainer.module.css'
 export const ProjectIntroContainer = ({heading, children, src}) => {
     return (
         <div className={style.container}>
-            <div style={{maxWidth:'491px', display:'flex', flexDirection:'column'}}>
-                <h1 style={{fontSize: '36px' , marginBottom: '98px', textAlign: 'left'}}>
+            <div className={style.textSide}>
+                <h1 className={style.header}>
                     {heading}
                 </h1>
-                <p style={{fontSize: '24px', textAlign: 'left'}}> 
+                <p className={style.subText}> 
                     {children}
                 </p>
             </div>
 
-            <div style={{ maxWidth:'746px', maxHeight:'577', minWidth:'390px', minHeight:'301px', display:'flex', flexGrow:'1'}}>
+            <div className={style.imageContainer}>
             <Image 
                 src={src}
                 alt="project image"

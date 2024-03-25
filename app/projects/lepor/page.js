@@ -17,23 +17,23 @@ export default function Home() {
     <>
         <ProjectLayout>
 
-            <ProjectIntroContainer heading='Lepor visual identity' src='/images/ProjectCover/lepor.jpg'>
+            <ProjectIntroContainer heading='Lepor visual identity' src='/images/ProjectCover/lepor1.jpg'>
                 Aroma marketing company that hand-crafts personalized scents for brands using natural ingredients only.
             </ProjectIntroContainer>
 
-            <ImageRow srcLeft={'/images/Lepor/bottle.png'} srcRight={'/images/Lepor/banner.png'} />
+            <ImageRow srcLeft={'/images/Lepor/bottle.jpg'} srcRight={'/images/Lepor/banner.jpg'} />
 
-            <ImageContainer src='/images/Lepor/lepor1.png'/>
+            <ImageContainer src='/images/Lepor/lepor1.jpg'/>
 
             <ImageContainer src='/images/Lepor/lepor2.png'/>
 
-            <ImageRowThree srcLeft={'/images/Lepor/left.png'} srcMiddle={'/images/Lepor/middle.png'} srcRight={'/images/Lepor/right.png'} />
+            {/* image row three */}
 
-            <ImageContainer src='/images/Lepor/lepor3.png'/>
+            <ImageContainer src='/images/Lepor/lepor3.jpg'/>
 
-            <ImageContainer src='/images/Lepor/billboard.png' contained/>
+            <ImageContainer src='/images/Lepor/billboard.jpg' contained/>
 
-            <ImageContainer src='/images/Lepor/mockup.png' contained/>
+            <ImageContainer src='/images/Lepor/mockup.jpg' contained/>
                 
         </ProjectLayout>
     </>

@@ -1,18 +1,18 @@
 .container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    align-items: stretch; 
     margin-top: 50px;
-}
-
-.firstImage {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 50px;
+    height: 463px; 
 }
 
 .secondImage {
     margin-left: 10px;
-    flex-grow: 1;
+    
+}
+
+.firstImage, .secondImage {
+    flex: 1; 
+    position: relative;
+    overflow: hidden; 
 }

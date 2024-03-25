@@ -15,7 +15,7 @@ export default function Home() {
     <>
         <ProjectLayout>
 
-            <ProjectIntroContainer heading='“We removed this title because it doesn’t follow our community guidelines”' src='/images/ProjectCover/censor.jpg'>
+            <ProjectIntroContainer heading='“We removed this title because it doesn’t follow our community guidelines”' src='/images/ProjectCover/censorhd.jpg'>
                 Research on censorship – what's the purpose and outcome of it?
             </ProjectIntroContainer>
 
@@ -26,15 +26,15 @@ export default function Home() {
                 Referring to the censorship of Michelangelo’s works in the 16th century in the Sistine Chapel, where naked bodies were painted with draperies, the artist decided to cover the photographs. This event led me to question the purpose and outcome of censorship, not only in art but generally.
             </Paragraph>
 
-            <ImageRow srcLeft={'/images/Censor/censor_mockup4.png'} srcRight={'/images/Censor/censor_mockup2.png'} />
+            <ImageRow srcLeft={'/images/Censor/censor_mockup4.jpg'} srcRight={'/images/Censor/censor_mockup2.jpg'} />
 
             <Paragraph>
                 I summarized my research in a publication, in which blank spaces were used as the main graphic element – to show the emptiness that censorship leaves behind itself, often in very absurd places and situations.
             </Paragraph>
 
-            <ImageRow srcLeft={'/images/Censor/censor_mockup1.png'} srcRight={'/images/Censor/censor_mockup3.png'} />
+            <ImageRow srcLeft={'/images/Censor/censor_mockup1.jpg'} srcRight={'/images/Censor/censor_mockup3.jpg'} />
 
-            <ImageContainer src='/images/Censor/censor_mockup_cover.png'/>
+            <ImageContainer src='/images/Censor/censor_mockup_cover.jpg'/>
                 
         </ProjectLayout>
     </>

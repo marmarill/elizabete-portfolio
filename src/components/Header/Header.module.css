@@ -5,8 +5,6 @@
   padding-right: 128px;
   font-size: 24px;
   font-family: 'Figtree';
-  
-
 }
 
 .linkToHome {
@@ -25,4 +23,48 @@
   margin-left: 30px;
   margin-right: 30px;
   cursor: pointer;
+}
+
+.burger {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .header {
+    display: flex;
+    padding-left: 20px; /* Reduced padding for smaller screens */
+    padding-right: 20px;
+    font-size: 18px; /* Smaller font size for limited space */
+    font-family: 'Figtree';
+    flex-wrap: wrap; /* Allows items to wrap if needed */
+  }
+
+  .logoWrapper {
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .linkToHome {
+    margin-top: 19px;
+  }
+
+
+  .headerButtons {
+    display: none;
+  }
+
+  .headerButton {
+    margin-left: 10px; /* Reduced margin for closer button grouping */
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .burger {
+    display: block;
+    position: absolute;
+    top: 32px;
+    right: 32px;
+  }
+
+
 }
