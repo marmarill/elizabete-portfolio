@@ -1,10 +1,14 @@
 import Image from "next/image";
 import styles from './ImageRowThree.module.css'
 
-export const ImageRowThree = ({srcLeft, srcMiddle, srcRight, compress}) => {
+export const ImageRowThree = ({srcLeft, srcMiddle, srcRight, leftOrientation, rightOrientation, middleOrientation, compress}) => {
+    const leftClassNames = `${styles.firstImage} ${leftOrientation === 'vertical' ? styles.verticalImage : styles.horizontalImage}`;
+    const middleClassNames = `${styles.middleImage} ${middleOrientation === 'vertical' ? styles.verticalImage : styles.horizontalImage}`;
+    const rightClassNames = `${styles.secondImage} ${rightOrientation === 'vertical' ? styles.verticalImage : styles.horizontalImage}`;
+    
     return (
         <div className={`${styles.container} ${compress ? styles.compress : ''} `}>
-            <div className={styles.leftImage}>
+            <div className={styles.leftClassNames}>
                 <Image
                     src={srcLeft}
                     alt="project image"
@@ -15,7 +19,7 @@ export const ImageRowThree = ({srcLeft, srcMiddle, srcRight, compress}) => {
                     
                 />
             </div>
-            <div className={styles.middleImage}>
+            <div className={styles.middleClassNames}>
                 <Image
                     src={srcMiddle}
                     alt="project image"
@@ -25,7 +29,7 @@ export const ImageRowThree = ({srcLeft, srcMiddle, srcRight, compress}) => {
                     sizes="(max-width: 188px) 100vw, 188px"
                 />
             </div>
-            <div className={styles.rightImage}>
+            <div className={styles.rightClassNames}>
                 <Image
                     src={srcRight}
                     alt="project image"

@@ -7,6 +7,8 @@ import { Paragraph } from '@/components/Paragraph/Paragraph';
 import { ImageContainer } from '@/components/ImageContainer/ImageContainer';
 import { ImageRow } from '@/components/ImageRow/ImageRow';
 import { ImageAndParagraph } from '@/components/ImageAndParagraph/ImageAndParagraph';
+import { ImageRowThree } from '@/components/ImageRowThree/ImageRowThree';
+import { ImageRowVertical } from '@/components/ImageRowVertical/ImageRowVertical';
 
 
 export default function Home() {
@@ -16,29 +18,22 @@ export default function Home() {
     <>
         <ProjectLayout>
 
-            <ProjectIntroContainer heading='Adatu Fabrika visual identity' src='/images/ProjectCover/adatu1.jpg'>
-                This creative cluster in the center of Kuldīga is a new place for your professional growth. 
-                Took responsibility of creative directing the process of identity design.
+            <ProjectIntroContainer heading='Riga Contemporary Art Map' src='/images/ProjectCover/artMap.jpg'>
+                Pocket-sized foldable guide designed to showcase the vibrant art scene of our city.
             </ProjectIntroContainer>
 
             <Paragraph>
-                Adatu Fabrika is an innovative and international place for art, education and co-creation, a home for the international master's level study program SDSI, the Kuldīga artists' residence, prototyping workshops, digital center and the LIAA Kuldīga business incubator. It is a place where art and design, ambition and excellence meet.
+                This guide features an illustrative map of Riga along with key locations of art museums, galleries, creative quarters and brief descriptions of them. The aim of this map is to provide the guests of Riga with an insight into the diverse and dynamic art scene that our city has to offer.   
             </Paragraph>
 
-            <ImageContainer src="/images/AdatuFabrika/fabrika.jpg" contained/>
+            <ImageRowVertical full leftOrientation={'vertical'} rightOrientation={'vertical'} srcLeft={'/images/artMap/artmap.gif'} srcRight={'/images/artMap/mockup.jpg'} />
 
-            <ImageAndParagraph src="/images/AdatuFabrika/adatuLogo.jpg">
-                It brings together different industries in one place and encourages joint growth. Our goal for this visual identity was to reflect the strong architecture of Adatu Fabrika and to talk about it as a platform for growth. And to do that, we chose to use stairs as the main graphic element and colours from the architecture itself.
-                <br />
-                <br />
-                It was very important for us to deliver this story in a simple and understandable visual language.
-            </ImageAndParagraph>
+            <ImageRowThree  leftOrientation={'vertical'} middleOrientation={'horizontal'}  rightOrientation={'horizontal'}srcLeft={'/images/artMap/text.jpg'} srcMiddle={'/images/artMap/illustration.jpg'} srcRight={'/images/artMap/font.jpg'}/>
 
-            <ImageRow srcLeft={'/images/AdatuFabrika/buklets.jpg'} srcRight={'/images/AdatuFabrika/sdsi.jpg'} />
+            <Paragraph>
+                This initiative was made by Team Zuzeum in collaboration with Arterritory, Neighborhood and Riga Last Thursdays. Available for free of charge at most of the Riga’s art museums, galleries and select hotels.
+            </Paragraph>
 
-            <ImageContainer src={'/images/AdatuFabrika/mockupCover.jpg'}/>
-
-            <ImageContainer src={'/images/AdatuFabrika/mockupView.jpg'}/>
                 
         </ProjectLayout>
     </>
