@@ -18,3 +18,21 @@
     position: relative;
     overflow: hidden; 
 }
+
+.verticalImage {
+    flex: 0.6;
+    margin-bottom: -1px;
+    margin-top: -1px;
+   
+
+
+}
+
+.horizontalImage {
+    flex: 2;
+}
+
+.full {
+    width: auto;
+    overflow: hidden;
+}

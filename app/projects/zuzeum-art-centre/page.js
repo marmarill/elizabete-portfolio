@@ -7,6 +7,7 @@ import { Paragraph } from '@/components/Paragraph/Paragraph';
 import { ImageContainer } from '@/components/ImageContainer/ImageContainer';
 import { ImageRow } from '@/components/ImageRow/ImageRow';
 import { ImageAndParagraph } from '@/components/ImageAndParagraph/ImageAndParagraph';
+import { ImageRowVertical } from '@/components/ImageRowVertical/ImageRowVertical';
 
 
 export default function Home() {
@@ -16,30 +17,38 @@ export default function Home() {
     <>
         <ProjectLayout>
 
-            <ProjectIntroContainer heading='Adatu Fabrika visual identity' src='/images/ProjectCover/adatu1.jpg'>
-                This creative cluster in the center of Kuldīga is a new place for your professional growth. 
-                Took responsibility of creative directing the process of identity design.
+            <ProjectIntroContainer heading='Zuzeum Art Centre' src='/images/ProjectCover/zuzeum.jpg'>
+                During my still ongoing journey at Zuzeum, I have worked on different event series, graphics for exhibitions’ interiors, social media announcement visual systems etc.. Here is a selection of few projects I've made together with Team Zuzeum.
             </ProjectIntroContainer>
 
-            <Paragraph>
-                Adatu Fabrika is an innovative and international place for art, education and co-creation, a home for the international master's level study program SDSI, the Kuldīga artists' residence, prototyping workshops, digital center and the LIAA Kuldīga business incubator. It is a place where art and design, ambition and excellence meet.
+            <ImageRow srcLeft={'/images/zuzeum/zuzeum1.jpg'} srcRight={'/images/zuzeum/zuzeum2.jpg'}/>
+
+            <Paragraph underText>
+                Zandele Art Market vol.3
             </Paragraph>
 
-            <ImageContainer src="/images/AdatuFabrika/fabrika.jpg" contained/>
+            <ImageContainer src={'/images/zuzeum/socialMedia.jpg'}/>
 
-            <ImageAndParagraph src="/images/AdatuFabrika/adatuLogo.jpg">
-                It brings together different industries in one place and encourages joint growth. Our goal for this visual identity was to reflect the strong architecture of Adatu Fabrika and to talk about it as a platform for growth. And to do that, we chose to use stairs as the main graphic element and colours from the architecture itself.
-                <br />
-                <br />
-                It was very important for us to deliver this story in a simple and understandable visual language.
-            </ImageAndParagraph>
+            <Paragraph underText>
+                Visual system for announcing weekly events on social media
+            </Paragraph>
 
-            <ImageRow srcLeft={'/images/AdatuFabrika/buklets.jpg'} srcRight={'/images/AdatuFabrika/sdsi.jpg'} />
+            <ImageRow srcLeft={'/images/zuzeum/zuzeumMovie.jpg'} srcRight={'/images/ProjectCover/zuzeum.jpg'}/>
 
-            <ImageContainer src={'/images/AdatuFabrika/mockupCover.jpg'}/>
+            <Paragraph underText>
+                Zuzeum x Kino Kults Open-Air Movie Nights 2023
+            </Paragraph>
 
-            <ImageContainer src={'/images/AdatuFabrika/mockupView.jpg'}/>
-                
+            <ImageRowVertical leftOrientation={'vertical'} srcLeft={'/images/zuzeum/zuzeum_porcelans.gif'} srcRight={'/images/zuzeum/zuzeumPorcelans.jpg'} full/>
+
+            <Paragraph underText>
+                Porcelain Market at the Sculpture Garden, during ’Celebrate Porcelain with Kuznetsov’ exhibition
+            </Paragraph>
+
+
+
+
+
         </ProjectLayout>
     </>
   )
