@@ -33,16 +33,7 @@ const ImageWithHover = ({ imageDetails }) => {
 };
 
 const Projects = ({ selectedFilter }) => {
-  const id = 'projects'
-  const ref = useRef(null);
-  const { registerElement } = useScroll();
-
-  // TODO out the id one section above or try to stop the scrolling ?px before anchor when coming from different page
-
-  useEffect(() => {
-    registerElement(id, ref.current);
-  }, [id, registerElement]);
-  
+ 
   const filteredProjects = selectedFilter ? allProjects.filter((project) => {
     if (project.categories.includes(selectedFilter)) {
       return project
@@ -51,7 +42,7 @@ const Projects = ({ selectedFilter }) => {
 
   return (
     <div>
-      <div className={styles.parentContainer} ref={ref} id={id}>
+      <div className={styles.parentContainer}>
       {filteredProjects.map((project, index) => (
           <ImageWithHover key={index} imageDetails={project} />
         ))}
