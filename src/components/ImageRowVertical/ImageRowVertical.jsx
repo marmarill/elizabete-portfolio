@@ -14,7 +14,7 @@ export const ImageRowVertical = ({srcLeft, srcRight, leftOrientation, rightOrien
                     alt="project image"
                     layout="fill"
                     objectFit="cover"
-                    unoptimized={isGif(src)}
+                    unoptimized={isGif(srcLeft)}
                 />
             </div>
             <div className={rightClassNames}>
@@ -23,7 +23,7 @@ export const ImageRowVertical = ({srcLeft, srcRight, leftOrientation, rightOrien
                     alt="project image"
                     layout="fill" 
                     objectFit="cover"
-                    unoptimized={isGif(src)}
+                    unoptimized={isGif(srcRight)}
                 />
             </div>
         </div>
