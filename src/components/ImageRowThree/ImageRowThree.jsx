@@ -12,7 +12,7 @@ export const ImageRowThree = ({srcLeft, srcMiddle, srcRight, compress}) => {
                     width={285}  
                     height={328} 
                     sizes="(max-width: 285px) 100vw, 285px"
-                    
+                    unoptimized={isGif(src)}
                 />
             </div>
             <div className={styles.middleImage}>
@@ -23,6 +23,7 @@ export const ImageRowThree = ({srcLeft, srcMiddle, srcRight, compress}) => {
                     width={188}  
                     height={328} 
                     sizes="(max-width: 188px) 100vw, 188px"
+                    unoptimized={isGif(src)}
                 />
             </div>
             <div className={styles.rightImage}>
@@ -33,6 +34,7 @@ export const ImageRowThree = ({srcLeft, srcMiddle, srcRight, compress}) => {
                     width={242}  
                     height={328} 
                     sizes="(max-width: 242px) 100vw, 242px"
+                    unoptimized={isGif(src)}
                 />
             </div>
         </div>

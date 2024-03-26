@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import style from './ProjectIntroContainer.module.css'
+import { isGif } from '@/helpers';
 
 export const ProjectIntroContainer = ({heading, children, src}) => {
     return (
@@ -16,7 +17,7 @@ export const ProjectIntroContainer = ({heading, children, src}) => {
             <div className={style.imageContainer}>
             <Image 
                 src={src}
-                unoptimized={src.includes('gif') ? true : false}
+                unoptimized={isGif(src)}
                 alt="project image"
                 layout="responsive"
                 width={746}  
