@@ -16,6 +16,7 @@ export const ProjectIntroContainer = ({heading, children, src}) => {
             <div className={style.imageContainer}>
             <Image 
                 src={src}
+                unoptimized={src.includes('gif') ? true : false}
                 alt="project image"
                 layout="responsive"
                 width={746}  

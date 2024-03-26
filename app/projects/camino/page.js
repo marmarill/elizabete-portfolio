@@ -5,6 +5,7 @@ import { ProjectIntroContainer } from '@/components/ProjectIntroContainer/Projec
 import { Paragraph } from '@/components/Paragraph/Paragraph';
 import { ImageContainer } from '@/components/ImageContainer/ImageContainer';
 import { ImageRowThree } from '@/components/ImageRowThree/ImageRowThree';
+import { ImageRow } from '@/components/ImageRow/ImageRow';
 
 
 
@@ -29,7 +30,7 @@ export default function Home() {
                 Currently users can view the route on the Camino Latvija website. However, when on the go, the mobile format is definitely more convenient. Therefore, in collaboration with the organization itself, I developed a prototype for mobile app. Adding features such as: route planning and navigation, accommodation reservation, sights to see, option of communication with other like-minded travelers, weather etc..
             </Paragraph>
 
-            <ImageContainer src='/images/Camino/iphoneMockuphd.jpg'/>
+            <ImageRow srcLeft={'/images/Camino/frame22.jpg'} srcRight={'/images/Camino/frame23.jpg'}/>
             
             <Paragraph>
             Visual design was inspired by the route's homemade signs and the signature colors of the Camino Santiago
