@@ -1,10 +1,8 @@
 'use client'
 import Image from 'next/image'
 import Header from '@/components/Header/Header'
-import Introduction from '@/components/Introduction/Introduction'
 import Footer from '@/components/Footer/Footer'
 import React, { useState } from 'react';
-import { ImageContainer } from '@/components/ImageContainer/ImageContainer';
 
 export default function Home() {
   
