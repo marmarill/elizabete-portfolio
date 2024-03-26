@@ -1,0 +1,45 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+}
+
+.modalContent {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 48px;
+    right: 36px 
+}
+
+.homeButton {
+    display: flex;
+    
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    padding-top: 48px;
+    justify-content: space-between;
+}

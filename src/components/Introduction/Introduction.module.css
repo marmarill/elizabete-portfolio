@@ -83,12 +83,45 @@
 
 
 
-/* @media only screen and (max-width: 600px) {
+/* Existing CSS above... */
+
+/* Responsive adjustments for viewports with a width of 767px or less */
+@media only screen and (max-width: 767px) {
+  
+  .introductionContainer {
+    margin-top: 100px;
+    min-width: 100%; /* Adjust container width */
+    padding: 0 15px; /* Add some padding */
+    max-height: fit-content;
+    margin-bottom: 200px;
+  }
+  
   .introductionText {
-    font-size: 32px;
+    font-size: 38px; /* Reduce font size */
+    margin: 20px; /* Adjust margins */
+    max-width: 100%; /* Ensure it doesn't overflow */
+    text-align: center;
+  }
+  
+  .subText {
+    width: 100%; /* Full width */
+    margin-top: 20px; /* Adjust top margin */
+    padding: 0; /* Reset any padding if necessary */
   }
 
-  .introductionContainer {
-    min-width: calc( 100vw - 20px );
+  .subTextLeft, .subTextRight {
+    width: 100%; /* Full width for text blocks */
+    float: none; /* Disable floating for a linear layout */
+    margin-top: 15px; /* Adjust spacing */
+    font-size: 18px; /* Adjust font size for readability */
   }
-} */
+
+  .triggerText {
+    font-size: 40px; /* Adjust trigger text font size */
+  }
+  
+  /* Adjust image positions/sizes if necessary */
+  .fadeInImg, .book, .bune, .phone {
+    display: none;
+  }
+}
