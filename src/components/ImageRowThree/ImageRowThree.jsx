@@ -1,5 +1,7 @@
 import Image from "next/image";
 import styles from './ImageRowThree.module.css'
+import { isGif } from '@/helpers';
+
 
 export const ImageRowThree = ({srcLeft, srcMiddle, srcRight, compress}) => {
     return (
