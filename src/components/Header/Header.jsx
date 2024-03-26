@@ -35,12 +35,14 @@ export default function Header() {
           <a className={styles.headerButton} onClick={() => {scrollToElement('approach')}}>Approach</a>
           <a className={styles.headerButton} onClick={() => {scrollToElement('projects')}}>Projects</a>
           <a className={styles.headerButton} onClick={() => {scrollToElement('contacts')}}>Contacts</a>
+          <Link className={styles.headerButton} href="/cv">CV</Link>
         </>
         :
         <>
           <Link className={styles.headerButton} href="/#approach">Approach</Link>
           <Link className={styles.headerButton} href="/#projects">Projects</Link>
           <Link className={styles.headerButton} href="/#contacts">Contacts</Link>
+          <Link className={styles.headerButton} href="/cv">CV</Link>
         </>
         }
       </div>  

@@ -1,7 +1,10 @@
 import Image from "next/image";
 import styles from './ImageRow.module.css'
 
-export const ImageRow = ({srcLeft, srcRight}) => {
+export const ImageRow = ({srcLeft, srcRight, irregular}) => {
+    const leftClassNames = `${styles.firstImage} ${leftOrientation === 'irregular' ? styles.irregularImage : styles.horizontalImage}`;
+    const rightClassNames = `${styles.secondImage} ${rightOrientation === 'irregular' ? styles.irregularImage : styles.horizontalImage}`;
+    
     return (
         <div className={styles.container}>
             <div className={styles.firstImage}>
@@ -10,7 +13,7 @@ export const ImageRow = ({srcLeft, srcRight}) => {
                     alt="project image"
                     layout="fill"
                     objectFit="cover"
-                    
+
                 />
             </div>
             <div className={styles.secondImage}>

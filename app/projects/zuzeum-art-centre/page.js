@@ -8,6 +8,7 @@ import { ImageContainer } from '@/components/ImageContainer/ImageContainer';
 import { ImageRow } from '@/components/ImageRow/ImageRow';
 import { ImageAndParagraph } from '@/components/ImageAndParagraph/ImageAndParagraph';
 import { ImageRowVertical } from '@/components/ImageRowVertical/ImageRowVertical';
+import { FiveImages } from '@/components/FiveImages/FiveImages';
 
 
 export default function Home() {
@@ -27,7 +28,7 @@ export default function Home() {
                 Zandele Art Market vol.3
             </Paragraph>
 
-            <ImageContainer src={'/images/zuzeum/socialMedia.jpg'}/>
+            <FiveImages srcOne={'/images/zuzeum/1.jpg'} srcTwo={'/images/zuzeum/2.jpg'} srcThree={'/images/zuzeum/3.jpg'} srcFour={'/images/zuzeum/4.jpg'} srcFive={'/images/zuzeum/5.jpg'}/>
 
             <Paragraph underText>
                 Visual system for announcing weekly events on social media
