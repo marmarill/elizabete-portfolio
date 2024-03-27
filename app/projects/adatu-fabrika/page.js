@@ -39,6 +39,11 @@ export default function Home() {
             <ImageContainer src={'/images/AdatuFabrika/mockupCover.jpg'}/>
 
             <ImageContainer src={'/images/AdatuFabrika/mockupView.jpg'}/>
+
+            <Paragraph>
+                My role in this project was creative directing, together in a team with:
+                Laura Elīna Egle (managing director), Laura Luīze (administrator), Lotta Ausmane, Megija Saleniece, Ieva Dambīte, Alise Miļuhina, Annija Sniedze, Nikola Šmite (graphic designers)
+            </Paragraph>
                 
         </ProjectLayout>
     </>

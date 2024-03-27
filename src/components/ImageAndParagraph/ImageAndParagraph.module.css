@@ -24,4 +24,23 @@
     flex-grow: 1;
 }
 
-
+@media only screen and (max-width: 767px) {
+    .container {
+        justify-content: center; /* Center align items */
+        margin-bottom: 20px;
+    }
+    
+    .paragraphContainer {
+        max-width: 100%; /* Take up full width */
+        margin: 20px 20px 40px;
+    }
+    
+    .text {
+        font-size: 20px; /* Reduce font size */
+    }
+    
+    .imageContainer {
+        max-width: 100%; /* Take up full width */
+        max-height: auto; /* Allow height to adjust based on content */
+    }
+}

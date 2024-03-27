@@ -26,7 +26,7 @@ export default function Home() {
                 This guide features an illustrative map of Riga along with key locations of art museums, galleries, creative quarters and brief descriptions of them. The aim of this map is to provide the guests of Riga with an insight into the diverse and dynamic art scene that our city has to offer.   
             </Paragraph>
 
-            <ImageRowVertical full leftOrientation={'vertical'} rightOrientation={'vertical'} srcLeft={'/images/artMap/artmap.gif'} srcRight={'/images/artMap/mockup.jpg'} />
+            <ImageRow compress srcLeft={'/images/artMap/artmap.gif'} srcRight={'/images/artMap/mockup.jpg'}/>
 
             <ImageContainer src={'/images/artMap/frame24.jpg'}/>
 

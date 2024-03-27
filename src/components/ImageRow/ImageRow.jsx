@@ -2,9 +2,9 @@ import Image from "next/image";
 import styles from './ImageRow.module.css'
 import { isGif } from '@/helpers';
 
-export const ImageRow = ({srcLeft, srcRight}) => {
+export const ImageRow = ({srcLeft, srcRight, compress}) => {
     return (
-        <div className={styles.container}>
+        <div className={`${styles.container} ${compress ? styles.compress : ''} `}>
             <div className={styles.firstImage}>
                 <Image
                     src={srcLeft}
