@@ -43,7 +43,7 @@ export default function Introduction() {
     addFadeAnimation(trigger1Ref, fade1Ref);
     addFadeAnimation(trigger2Ref, fade2Ref);
     addFadeAnimation(trigger3Ref, fade3Ref);
-  }, []);
+  }, [trigger1Ref, trigger2Ref, trigger3Ref]);
 
   return (
  <div className={styles.introductionContainer}>

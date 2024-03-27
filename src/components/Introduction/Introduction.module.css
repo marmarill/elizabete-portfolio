@@ -1,14 +1,11 @@
 .hoverContainer {
-  position: relative;
   display: inline-block;
 }
 
 .fadeInImg {
   opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
   transition: opacity 0.05s ease;
+  position: absolute;
 }
 
 .triggerText {
@@ -16,30 +13,27 @@
   color: blue;
   font-family: 'Mate';
   font-weight: 400;
-  font-size: 64px;
+  font-size: 52px;
 }
 
 .book {
-  top: 630px;
+  top: 498px; /* Adjust position relative to the introduction text */
   left: 936px;
-  right: 150px;
-  bottom: 2745px;
 }
 
 .bune {
-  top: 110px;
+  top: 24px; /* Adjust position relative to the introduction text */
   left: 736px;
-  right: 443px;
 
 }
 
 .phone {
-  top: 637px;
+  top: 498px; /* Adjust position relative to the introduction text */
   left: 128px;
-  right: 982;
 }
 
 .introductionContainer{
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,9 +45,9 @@
 .introductionText {
   font-family: 'Figtree';
   font-weight: 300;
-  font-size: 60px;
+  font-size: 48px;
   display: inline-block;
-  margin: 282px 222px 2px 222px;
+  margin: 240px 222px 2px 222px;
   width: auto;
   height: auto;
 }
