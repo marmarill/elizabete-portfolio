@@ -13,6 +13,7 @@
   white-space: nowrap;
   height: 54px;
   transition: background-color ease-in 160ms;
+  color: black;
 }
 
 .small{

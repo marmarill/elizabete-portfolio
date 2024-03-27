@@ -95,7 +95,7 @@
 
   .title {
     margin-bottom: 10px; /* Adjust as needed for mobile */
-    font-size: 32px; /* Adjust as needed for mobile */
+    font-size: 24px; /* Adjust as needed for mobile */
     text-wrap: balance;
     width: auto;
     line-height: 1;
@@ -104,8 +104,9 @@
   .subText {
     
     margin-top: 0px; /* Reset margin */
-    font-size: 18px; /* Adjust as needed for mobile */
+    font-size: 14px; /* Adjust as needed for mobile */
     text-wrap: balance;
+    width: auto;
   }
 
   .viewProjectButton {
