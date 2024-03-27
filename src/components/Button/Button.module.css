@@ -1,6 +1,6 @@
 
 .button {
-  padding: 11px 50px;
+  padding: 8px 50px;
   margin-right: 35px;
   margin-bottom: 15px;
   margin-top: 15px;
@@ -51,7 +51,7 @@
   }
 
   .small {
-    padding: 10px 24px; /* Adjust as needed for mobile */
+    padding: 4px 24px; /* Adjust as needed for mobile */
     margin-top: 5px; /* Adjust as needed for mobile */
     margin-bottom: 5px; /* Adjust as needed for mobile */
     font-size: 16px; /* Adjust as needed for mobile */
