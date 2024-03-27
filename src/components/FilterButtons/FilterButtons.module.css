@@ -40,7 +40,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: 20px;
-    margin: 52px 44px;
+    margin: 32px 44px;
+    padding-bottom: 0;
   }
 
   .filterText {
