@@ -39,8 +39,8 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
     margin-bottom: 20px;
+    margin: 52px 44px;
   }
 
   .filterText {
@@ -52,6 +52,7 @@
   .categoryButtons {
     margin-left: 0; /* Adjust as needed for mobile */
     font-size: 20px; /* Adjust as needed for mobile */
+    margin-right: 0;
   }
   .label {
     padding-top: 0

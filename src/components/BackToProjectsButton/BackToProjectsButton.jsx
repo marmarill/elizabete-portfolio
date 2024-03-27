@@ -10,7 +10,7 @@ export default function BackToProjectButton({onClick, enabled}) {
      
       <Link href={`/#projects`} scroll={true}>
         <span className={styles.backButton}>
-            <Arrow />
+            <Arrow className={styles.arrow}/>
             Back to projects
         </span>
       </Link>

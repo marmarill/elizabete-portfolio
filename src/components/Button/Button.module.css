@@ -18,7 +18,7 @@
 
 .small{
   
-  padding: 15px 30px;
+  padding: 8px 30px;
   margin-bottom: 0px;
   margin-top: auto;
   border-radius: 50px;
@@ -42,12 +42,12 @@
 
 @media only screen and (max-width: 767px) {
   .button {
-    padding: 5px 10px; /* Adjust as needed for mobile */
+    padding: 5px 13px; /* Adjust as needed for mobile */
     margin-right: 10px; /* Remove right margin */
     margin-bottom: 10px; /* Adjust as needed for mobile */
     margin-top: 10px; /* Adjust as needed for mobile */
     font-size: 14px; /* Adjust as needed for mobile */
-    height: 30px; /* Adjust as needed for mobile */
+    height: 34px; /* Adjust as needed for mobile */
   }
 
   .small {

@@ -13,7 +13,8 @@
     .backButton {
         margin: 20px 0; /* Adjusted margin for smaller screens */
         padding: 0 28px; /* Add padding to space out the items */
-        max-width: 300px; /* Allow the button to take up full width */
-        justify-content: space-between; /* Center items horizontally */
+        max-width: 256px; /* Allow the button to take up full width */
+        justify-content: space-between;
+        font-size: 18px;
     }
 }
