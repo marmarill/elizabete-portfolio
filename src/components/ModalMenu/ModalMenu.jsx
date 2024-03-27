@@ -32,10 +32,10 @@ const ModalMenu = ({ isOpen, closeModal }) => {
                 <div className={styles.modalContent}>
                 {isHomePage ?
                 <>
-                    <a onClick={() => { handleClick('approach') }}>Approach</a>
-                    <a onClick={() => { handleClick('projects') }}>Projects</a>
-                    <a onClick={() => { handleClick('contacts') }}>Contacts</a>
-                    <a href="cv">CV</a>
+                    <a className={styles.link} onClick={() => { handleClick('approach') }}>Approach</a>
+                    <a className={styles.link} onClick={() => { handleClick('projects') }}>Projects</a>
+                    <a className={styles.link} onClick={() => { handleClick('contacts') }}>Contacts</a>
+                    <a className={styles.link} href="cv">CV</a>
                 </>
                     :
                 <>

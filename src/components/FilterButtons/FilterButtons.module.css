@@ -2,10 +2,11 @@
 .category{
   display: flex;
   justify-content: center;
-  margin-top: 152px;
+  margin: 152px 30px;
   font-family: 'Figtree';
   height: 250px;
   padding-bottom: 74px;
+  
 }
 
 .filterText{
@@ -29,4 +30,29 @@
 
 .label{
   padding-top: 76px;
+}
+
+@media only screen and (max-width: 767px) {
+  .category {
+    height: auto; /* Adjust as needed for mobile */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+
+  .filterText {
+    font-size: 18px; /* Adjust as needed for mobile */
+    transform: none;
+    margin-bottom: 20px;
+  }
+
+  .categoryButtons {
+    margin-left: 0; /* Adjust as needed for mobile */
+    font-size: 20px; /* Adjust as needed for mobile */
+  }
+  .label {
+    padding-top: 0
+  }
 }

@@ -8,8 +8,10 @@ export const ImageRow = ({srcLeft, srcRight}) => {
                 <Image
                     src={srcLeft}
                     alt="project image"
-                    layout="fill"
-                    objectFit="cover"
+                    layout="responsive"
+                    width={285}  
+                    height={465} 
+
 
                 />
             </div>
@@ -17,8 +19,9 @@ export const ImageRow = ({srcLeft, srcRight}) => {
                 <Image
                     src={srcRight}
                     alt="project image"
-                    layout="fill" 
-                    objectFit="cover"
+                    layout="responsive"
+                    width={285}  
+                    height={465} 
                 />
             </div>
         </div>

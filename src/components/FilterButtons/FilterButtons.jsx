@@ -8,10 +8,10 @@ import { useScroll } from '@/context/Scroll';
 
 const categories = [
   'UX/UI',
-  'Brand identity',
   'Publication design',
   'Illustration',
-  'Packaging design',
+  'Brand identity',
+  'Packaging',
   'Typography',
 ];
 

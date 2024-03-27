@@ -32,3 +32,32 @@
     flex-grow: 1;
     margin-bottom: -1px;
 }
+
+@media only screen and (max-width: 767px) {
+    .container {
+        justify-content: center; /* Center content horizontally */
+        
+    }
+
+    .textSide {
+        max-width: none; /* Remove max-width */
+        width: 100%; /* Take up full width */
+        margin: 30px;
+        line-height: 2;
+    }
+
+    .header {
+        font-size: 32px; 
+    }
+
+    .subText {
+        font-size: 18px; /* Adjust font size for smaller screens */
+        margin-top: 20px; /* Adjust margin for smaller screens */
+    }
+
+    .imageContainer {
+        flex-basis: 100%; /* Make image container take up full width */
+        max-width: 100%; /* Ensure image container doesn't overflow */
+        margin-top: 30px; /* Adjust margin for smaller screens */
+    }
+}

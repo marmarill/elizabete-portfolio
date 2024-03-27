@@ -45,7 +45,7 @@ export const allProjects = [{
   title: 'Pour-it-yourself ramen soup packaging',
   additionalText: 'Packaging and 3D visuals for urban and careless ramen for those who want to gain more confidence by keeping calm mind.',
   buttonText: 'view project',
-  categories: ['Packaging design', 'Typography'],
+  categories: ['Packaging', 'Typography'],
   path: '/ramen'
 }, {
   src: '/images/ProjectCover/camino1.jpg',

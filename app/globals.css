@@ -15,7 +15,7 @@
 html,
 body {
   background-color: #ffffff;
-  max-width: 1512px;
+  max-width: 100vw;
   overflow-x: hidden;
   font-family: 'Figtree, sans-serif';
   margin: auto;
@@ -31,5 +31,12 @@ a {
   text-decoration: none;
 }
 
+* {
+  line-height: 1.5;
+}
 
-
+@media only screen and (max-width: 767px) {
+  * {
+    line-height: 1.2;
+  }
+}

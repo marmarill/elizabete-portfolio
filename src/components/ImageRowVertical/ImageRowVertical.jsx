@@ -12,7 +12,7 @@ export const ImageRowVertical = ({srcLeft, srcRight, leftOrientation, rightOrien
                 <Image
                     src={srcLeft}
                     alt="project image"
-                    layout="fill"
+                    layout="responsive"
                     objectFit="cover"
                     unoptimized={isGif(srcLeft)}
                 />

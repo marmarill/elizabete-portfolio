@@ -9,6 +9,7 @@ import { ImageRow } from '@/components/ImageRow/ImageRow';
 import { ImageAndParagraph } from '@/components/ImageAndParagraph/ImageAndParagraph';
 import { ImageRowVertical } from '@/components/ImageRowVertical/ImageRowVertical';
 import { FiveImages } from '@/components/FiveImages/FiveImages';
+import { GIF } from '@/components/GIF/gif';
 
 
 export default function Home() {
@@ -19,8 +20,12 @@ export default function Home() {
         <ProjectLayout>
 
             <ProjectIntroContainer heading='Zuzeum Art Centre' src='/images/ProjectCover/zuzeum.jpg'>
-                During my still ongoing journey at Zuzeum, I have worked on different event series, graphics for exhibitions’ interiors, social media announcement visual systems etc.. Here is a selection of few projects I've made together with Team Zuzeum.
+                During my still ongoing journey at Zuzeum, I have worked on different event series, graphics for exhibitions’ interiors, social media announcement visual systems etc.. 
             </ProjectIntroContainer>
+
+            <Paragraph underText>
+                Here is a selection of few projects I've worked on  together with Team Zuzeum.
+            </Paragraph>
 
             <ImageRow srcLeft={'/images/zuzeum/zuzeum1.jpg'} srcRight={'/images/zuzeum/zuzeum2.jpg'}/>
 
@@ -40,7 +45,8 @@ export default function Home() {
                 Zuzeum x Kino Kults Open-Air Movie Nights 2023
             </Paragraph>
 
-            <ImageRowVertical leftOrientation={'vertical'} srcLeft={'/images/zuzeum/zuzeum_porcelans.gif'} srcRight={'/images/zuzeum/zuzeumPorcelans.jpg'} full/>
+            <GIF full src={'/images/zuzeum/zuzeum_porcelans.gif'}/>
+
 
             <Paragraph underText>
                 Porcelain Market at the Sculpture Garden, during ’Celebrate Porcelain with Kuznetsov’ exhibition

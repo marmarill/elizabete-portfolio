@@ -21,6 +21,10 @@
     width: 80%;
     max-width: 400px;
     justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    height: 100vh;
+    padding-bottom: 20vh;
 }
 
 .button {
@@ -29,7 +33,7 @@
     background-color: transparent;
     position: absolute;
     top: 48px;
-    right: 36px 
+    right: 38px 
 }
 
 .homeButton {
@@ -42,4 +46,9 @@
     flex-direction: row;
     padding-top: 48px;
     justify-content: space-between;
+}
+
+.link {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }

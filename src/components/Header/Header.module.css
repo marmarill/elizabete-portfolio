@@ -1,8 +1,8 @@
 
 .header {
   display: flex;
-  padding-left: 42px;
-  padding-right: 16px;
+  padding-left: 128px;
+  padding-right: 128px;
   font-size: 24px;
   font-family: 'Figtree';
 }
@@ -32,8 +32,8 @@
 @media (max-width: 767px) {
   .header {
     display: flex;
-    padding-left: 20px; /* Reduced padding for smaller screens */
-    padding-right: 20px;
+    padding-left: 30px; /* Reduced padding for smaller screens */
+    padding-right: 30px;
     font-size: 18px; /* Smaller font size for limited space */
     font-family: 'Figtree';
     flex-wrap: wrap; /* Allows items to wrap if needed */
@@ -63,7 +63,7 @@
     display: block;
     position: absolute;
     top: 49px;
-    right: 32px;
+    right: 36px;
   }
 
 

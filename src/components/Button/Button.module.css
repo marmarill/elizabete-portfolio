@@ -38,3 +38,21 @@
   background-color: lightgray;
   border-color: lightgray;
 }
+
+@media only screen and (max-width: 767px) {
+  .button {
+    padding: 10px 20px; /* Adjust as needed for mobile */
+    margin-right: 10px; /* Remove right margin */
+    margin-bottom: 10px; /* Adjust as needed for mobile */
+    margin-top: 10px; /* Adjust as needed for mobile */
+    font-size: 18px; /* Adjust as needed for mobile */
+    height: 44px; /* Adjust as needed for mobile */
+  }
+
+  .small {
+    padding: 10px 24px; /* Adjust as needed for mobile */
+    margin-top: 5px; /* Adjust as needed for mobile */
+    margin-bottom: 5px; /* Adjust as needed for mobile */
+    font-size: 16px; /* Adjust as needed for mobile */
+  }
+}

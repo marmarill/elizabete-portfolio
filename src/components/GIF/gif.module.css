@@ -1,0 +1,17 @@
+.container {
+    height: 600px;
+    width: 338px;
+}
+
+.gif {
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 100vw;
+        height: auto;
+        border-bottom: 20px;
+    }
+}
