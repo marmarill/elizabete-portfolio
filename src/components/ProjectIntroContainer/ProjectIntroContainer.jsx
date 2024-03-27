@@ -22,7 +22,7 @@ export const ProjectIntroContainer = ({heading, children, src}) => {
                 layout="responsive"
                 width={746}  
                 height={577} 
-                sizes="(max-width: 767px) 100vw, 746px"
+                
             />
             </div>
         </div>
