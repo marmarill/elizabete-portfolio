@@ -61,5 +61,19 @@ export const allProjects = [{
   buttonText: 'view project',
   categories: ['Brand identity', 'Typography', 'Illustration'],
   path: '/lepor'
+}, {
+  src: '/images/ProjectCover/newEarth.jpg',
+  title: 'New Earth',
+  additionalText: 'Some experiments made for New Earth natural supplement packaging.',
+  buttonText: 'view project',
+  categories: ['Packaging', 'Visual Identity'],
+  path: '/new-earth'
+}, {
+  src: '/images/ProjectCover/typography.jpg',
+  title: 'Typography on wooden blocks',
+  additionalText: 'Is it a painting??',
+  buttonText: 'view project',
+  categories: ['Packaging', 'Visual Identity'],
+  path: '/typography'
 }
 ]

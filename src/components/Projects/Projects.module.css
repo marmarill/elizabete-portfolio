@@ -4,23 +4,25 @@
   max-width: 1102px;
   margin: auto;
   padding-bottom: 152px;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .projectContainer {
   position: relative;
   overflow: hidden;
-  flex: 0 0 calc(50% - 20px);
+  flex: 0 0 calc(50% - 12px);
   display: inline-block;
   justify-content: center;
+  margin-bottom: 6px;
+  margin-left: 6px;
   margin-right: 6px;
+  /* margin: 0 20px 30px; */
 
 }
 
 .image {
   width: 543px;
   height: 420px;
-  
   transition: ease-in 0.5s;
  }
 
