@@ -4,7 +4,7 @@ import Image from 'next/image'
 export const CV = () => {
 
     return <>
-        <div style={{ margin: 'auto', padding: '38px' }} className={styles.mobile}>
+        <div style={{ margin: 'auto', paddingTop: '40px' }} className={styles.mobile}>
             <Image 
                 src={'/images/cv-mobile.jpg'} // Replace 'mobile-image.jpg' with the path to your mobile image
                 alt="project image"
