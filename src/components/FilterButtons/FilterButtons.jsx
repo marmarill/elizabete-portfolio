@@ -8,7 +8,7 @@ import { useScroll } from '@/context/Scroll';
 
 const categories = [
   'UX/UI',
-  'Publication design',
+  'Publication',
   'Illustration',
   'Brand identity',
   'Packaging',

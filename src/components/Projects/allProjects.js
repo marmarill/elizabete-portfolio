@@ -3,7 +3,7 @@ export const allProjects = [{
   title: '“We removed this title because it doesn’t follow our community guidelines”',
   additionalText: `Research on censorship – what's the purpose and outcome of it?`,
   buttonText: 'view project',
-  categories: ['Publication design', 'Typography'],
+  categories: ['Publication', 'Typography'],
   path: '/censor-project'
 }, {
   src: '/images/ProjectCover/adatu1.jpg',
@@ -66,14 +66,14 @@ export const allProjects = [{
   title: 'New Earth',
   additionalText: 'Some experiments made for New Earth natural supplement packaging.',
   buttonText: 'view project',
-  categories: ['Packaging', 'Visual Identity'],
+  categories: ['Packaging', 'Visual Identity', 'Brand identity'],
   path: '/new-earth'
 }, {
   src: '/images/ProjectCover/typography.jpg',
   title: 'Typography on wooden blocks',
   additionalText: 'Is it a painting??',
   buttonText: 'view project',
-  categories: ['Packaging', 'Visual Identity'],
+  categories: ['Typography'],
   path: '/typography'
 }
 ]
