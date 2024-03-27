@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from './ImageRow.module.css'
+import { isGif } from '@/helpers';
 
 export const ImageRow = ({srcLeft, srcRight}) => {
     return (
@@ -9,10 +10,9 @@ export const ImageRow = ({srcLeft, srcRight}) => {
                     src={srcLeft}
                     alt="project image"
                     layout="responsive"
-                    width={285}  
-                    height={465} 
-
-
+                    width="285"
+                    height="465"
+                    unoptimized={isGif(srcLeft)}
                 />
             </div>
             <div className={styles.secondImage}>
@@ -20,8 +20,10 @@ export const ImageRow = ({srcLeft, srcRight}) => {
                     src={srcRight}
                     alt="project image"
                     layout="responsive"
-                    width={285}  
-                    height={465} 
+                    width="285" 
+                    height="465"
+                    unoptimized={isGif(srcRight)}
+                    
                 />
             </div>
         </div>

@@ -1,5 +1,6 @@
 import Image from "next/image"
 import styles from './gif.module.css'
+import { isGif } from '@/helpers';
 
 export const GIF = ({ src, contained, left }) =>  {
       return (
@@ -10,6 +11,7 @@ export const GIF = ({ src, contained, left }) =>  {
                     layout="responsive"
                     height="600"
                     width="338"
+                    unoptimized={isGif(src)}
                 />
         </div>
     )

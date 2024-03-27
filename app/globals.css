@@ -33,6 +33,7 @@ a {
 
 * {
   line-height: 1.5;
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 767px) {
