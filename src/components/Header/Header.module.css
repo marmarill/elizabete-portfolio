@@ -32,11 +32,11 @@
 @media (max-width: 767px) {
   .header {
     display: flex;
-    padding-left: 30px; /* Reduced padding for smaller screens */
+    padding-left: 30px; 
     padding-right: 30px;
-    font-size: 18px; /* Smaller font size for limited space */
+    font-size: 18px; 
     font-family: 'Figtree';
-    flex-wrap: wrap; /* Allows items to wrap if needed */
+    flex-wrap: wrap; 
   }
 
   .logoWrapper {
@@ -54,7 +54,7 @@
   }
 
   .headerButton {
-    margin-left: 10px; /* Reduced margin for closer button grouping */
+    margin-left: 10px; 
     margin-right: 10px;
     cursor: pointer;
   }

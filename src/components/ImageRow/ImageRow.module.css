@@ -26,15 +26,15 @@
     .container {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-        height: auto; /* Allow container height to adjust based on content */
+        flex-wrap: wrap; 
+        height: auto; 
 
     }
 
     
     .firstImage, .secondImage {
-        width: 100%; /* Make images take up full width on smaller screens */
-        margin-left: 0; /* Remove left margin to prevent overlapping */
-        margin-bottom: 10px; /* Add bottom margin for spacing between images */
+        width: 100%; 
+        margin-left: 0; 
+        margin-bottom: 10px; 
     }
     }

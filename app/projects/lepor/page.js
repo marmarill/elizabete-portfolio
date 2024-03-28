@@ -25,8 +25,6 @@ export default function Home() {
 
             <ImageContainer src='/images/Lepor/lepor2.png'/>
 
-            {/* image row three */}
-
             <ImageContainer src='/images/Lepor/lepor3.jpg'/>
 
             <ImageContainer src='/images/Lepor/billboard.jpg' contained/>

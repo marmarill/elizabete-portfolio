@@ -40,16 +40,16 @@
 
 @media only screen and (max-width: 767px) {
     .container {
-        flex-direction: column; /* Change flex direction to column for smaller screens */
-        height: auto; /* Allow the height to adjust based on content */
-        width: 100%; /* Make the container fill the entire width of the screen */
-        max-width: 100%; /* Ensure the container doesn't overflow */
+        flex-direction: column; 
+        height: auto; 
+        width: 100%;
+        max-width: 100%;
     }
 
     .firstImage, .secondImage, .verticalImage, .horizontalImage {
-        flex: none; /* Remove flex properties to allow images to maintain their original dimensions */
-        width: 100%; /* Make images take up full width on smaller screens */
-        margin-left: 0; /* Remove left margin to prevent overlapping */
-        margin-bottom: 10px; /* Add bottom margin for spacing between images */
+        flex: none;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px;
     }
 }

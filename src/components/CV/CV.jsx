@@ -6,7 +6,7 @@ export const CV = () => {
     return <>
         <div style={{ margin: 'auto', paddingTop: '40px' }} className={styles.mobile}>
             <Image 
-                src={'/images/cv-mobile.jpg'} // Replace 'mobile-image.jpg' with the path to your mobile image
+                src={'/images/cv-mobile.jpg'} 
                 alt="project image"
                 layout="responsive"
                 width={700}

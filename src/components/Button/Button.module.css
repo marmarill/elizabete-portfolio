@@ -42,18 +42,18 @@
 
 @media only screen and (max-width: 767px) {
   .button {
-    padding: 5px 26px; /* Adjust as needed for mobile */
-    margin-right: 10px; /* Remove right margin */
-    margin-bottom: 10px; /* Adjust as needed for mobile */
-    margin-top: 10px; /* Adjust as needed for mobile */
-    font-size: 14px; /* Adjust as needed for mobile */
-    height: 34px; /* Adjust as needed for mobile */
+    padding: 5px 26px; 
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    height: 34px;
   }
 
   .small {
-    padding: 4px 24px; /* Adjust as needed for mobile */
-    margin-top: 5px; /* Adjust as needed for mobile */
-    margin-bottom: 5px; /* Adjust as needed for mobile */
-    font-size: 16px; /* Adjust as needed for mobile */
+    padding: 4px 24px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
   }
 }

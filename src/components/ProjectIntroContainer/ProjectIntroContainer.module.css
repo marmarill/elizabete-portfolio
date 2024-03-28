@@ -37,13 +37,13 @@
 
 @media only screen and (max-width: 767px) {
     .container {
-        justify-content: center; /* Center content horizontally */
+        justify-content: center; 
         
     }
 
     .textSide {
-        max-width: none; /* Remove max-width */
-        width: 100%; /* Take up full width */
+        max-width: none; 
+        width: 100%; 
         margin: 30px;
         line-height: 2;
     }
@@ -53,13 +53,13 @@
     }
 
     .subText {
-        font-size: 18px; /* Adjust font size for smaller screens */
-        margin-top: 20px; /* Adjust margin for smaller screens */
+        font-size: 18px; 
+        margin-top: 20px;
     }
 
     .imageContainer {
-        flex-basis: 100%; /* Make image container take up full width */
-        max-width: 100%; /* Ensure image container doesn't overflow */
-        margin-top: 30px; /* Adjust margin for smaller screens */
+        flex-basis: 100%; 
+        max-width: 100%; 
+        margin-top: 30px; 
     }
 }

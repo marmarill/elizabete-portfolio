@@ -26,21 +26,21 @@
 
 @media only screen and (max-width: 767px) {
     .container {
-        justify-content: center; /* Center align items */
+        justify-content: center;
         margin-bottom: 20px;
     }
     
     .paragraphContainer {
-        max-width: 100%; /* Take up full width */
+        max-width: 100%;
         margin: 20px 20px 40px;
     }
     
     .text {
-        font-size: 20px; /* Reduce font size */
+        font-size: 20px; 
     }
     
     .imageContainer {
-        max-width: 100%; /* Take up full width */
-        max-height: auto; /* Allow height to adjust based on content */
+        max-width: 100%;
+        max-height: auto; 
     }
 }

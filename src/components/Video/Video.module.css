@@ -12,7 +12,7 @@
 }
 @media only screen and (max-width: 767px) {
     .video {
-        width: 100%; /* Make the video fill the entire width of its container */
-        height: auto; /* Allow the height to adjust proportionally */
+        width: 100%; 
+        height: auto;
     }
 }

@@ -35,7 +35,7 @@
 
 @media only screen and (max-width: 767px) {
   .category {
-    height: auto; /* Adjust as needed for mobile */
+    height: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -45,14 +45,14 @@
   }
 
   .filterText {
-    font-size: 18px; /* Adjust as needed for mobile */
+    font-size: 18px; 
     transform: none;
     margin-bottom: 20px;
   }
 
   .categoryButtons {
-    margin-left: 0; /* Adjust as needed for mobile */
-    font-size: 20px; /* Adjust as needed for mobile */
+    margin-left: 0; 
+    font-size: 20px;
     margin-right: 0;
   }
   .label {

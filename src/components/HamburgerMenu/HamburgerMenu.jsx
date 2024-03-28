@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import styles from './HamburgerMenu.module.css'; // We will create this CSS module file next
+import styles from './HamburgerMenu.module.css'; 
 
 const HamburgerMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +26,7 @@ const HamburgerMenu = () => {
                     <Link href="/about">
                         <a onClick={toggleMenu}>About</a>
                     </Link>
-                    {/* Add more navigational links as needed */}
+                    
                 </div>
             )}
         </div>

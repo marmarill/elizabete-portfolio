@@ -17,18 +17,18 @@
 }
 
 .book {
-  top: 498px; /* Adjust position relative to the introduction text */
+  top: 498px; 
   left: 936px;
 }
 
 .bune {
-  top: 24px; /* Adjust position relative to the introduction text */
+  top: 24px; 
   left: 736px;
 
 }
 
 .phone {
-  top: 498px; /* Adjust position relative to the introduction text */
+  top: 498px; 
   left: 128px;
 }
 
@@ -75,25 +75,20 @@
   font-family: 'Figtree';
 }
 
-
-
-/* Existing CSS above... */
-
-/* Responsive adjustments for viewports with a width of 767px or less */
 @media only screen and (max-width: 767px) {
   
   .introductionContainer {
     margin-top: 100px;
-    min-width: 100%; /* Adjust container width */
-    padding: 0 15px; /* Add some padding */
+    min-width: 100%; 
+    padding: 0 15px;
     max-height: fit-content;
     margin-bottom: 100px;
   }
   
   .introductionText {
-    font-size: 38px; /* Reduce font size */
-    margin: 20px; /* Adjust margins */
-    max-width: 100%; /* Ensure it doesn't overflow */
+    font-size: 38px; 
+    margin: 20px; 
+    max-width: 100%;
     text-align: center;
   }
   
@@ -107,11 +102,11 @@
     width: 100%; 
     float: none; 
     margin-bottom: 40px;
-    font-size: 18px; /* Adjust font size for readability */
+    font-size: 18px; 
   }
 
   .triggerText {
-    font-size: 40px; /* Adjust trigger text font size */
+    font-size: 40px;
   }
   
   .fadeInImg, .book, .bune, .phone {

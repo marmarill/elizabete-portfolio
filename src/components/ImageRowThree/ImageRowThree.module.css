@@ -15,17 +15,17 @@
 
 .leftImage {
     margin-right: 5px;
-    /* flex-grow: 1.2; */
+    
 }
 
 .middleImage {
     margin: 0 5px;
-    /* flex-grow: 1; */
+    
 }
 
 .rightImage {
     margin-left: 5px;
-    /* flex-grow: 1.15; */
+    
 }
 
 .leftImage img, .middleImage img, .rightImage img {
